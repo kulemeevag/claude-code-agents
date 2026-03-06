@@ -2,7 +2,7 @@
 
 Specialized AI agents for Kotlin/Spring Boot backend and Compose Multiplatform development.
 
-## Installation
+## Installation (Claude Code)
 
 ### Option 1: Install from GitHub (Recommended)
 
@@ -26,6 +26,28 @@ git clone https://github.com/AlexGladkov/claude-code-agents.git
 # Install the plugin
 /plugin install kotlin-agents
 ```
+
+## Installation (Gemini CLI)
+
+These agents are also available as **Gemini CLI Skills**.
+
+### Install Specific Skill
+
+You can install any specific skill from this repository:
+
+```bash
+gemini skills install https://github.com/AlexGladkov/claude-code-agents --path plugin/skills/builder-spring
+```
+
+### Install All Skills (Local Link)
+
+If you have cloned the repository, you can link all skills at once:
+
+```bash
+gemini skills link . --path plugin/skills
+```
+
+Don't forget to run `/skills reload` in your Gemini CLI session after installation.
 
 ## Available Agents
 

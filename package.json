@@ -1,0 +1,13 @@
+{
+  "name": "claude-code-agents",
+  "version": "1.0.0",
+  "description": "Specialized AI agents for Kotlin/Spring/Compose, now with Gemini CLI support",
+  "scripts": {
+    "build-skills": "node convert_agents_to_skills.cjs"
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "20.x"
+  }
+}
